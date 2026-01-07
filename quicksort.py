@@ -15,5 +15,7 @@ def quicksort(lista):
     return quicksort(esquerda) + meio + quicksort(direita)
 
 numeros = [10, 80, 30, 90, 40, 50, 70, 60, 20, 100, 30, 40, 80]
+
 print(quicksort(numeros))
+
 # Saída: [10, 20, 30, 30, 40, 40, 50, 60, 70, 80, 80, 90, 100]
